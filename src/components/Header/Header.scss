@@ -1,0 +1,30 @@
+@use "../../scss/" as *;
+/* Header */
+header {
+  height: $header-height;
+  width: 100%;
+}
+/* Navigation */
+nav {
+position: fixed;
+@include flex(center, center);
+top: 0;
+left: 0;
+
+height: 5rem;
+width: 100vw;
+
+background: $color-dark;
+
+  ul {
+    @include flex(center, center)
+  }
+  
+  li ~ li{
+   margin-left: 1rem ;
+  }
+  
+  a {
+  text-transform: uppercase;
+  }
+}

@@ -8,9 +8,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "hover": "^3.0.0-alpha.6",
+    "hover-effect": "^1.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "styled-components": "^5.3.5"
+    "sass": "^1.52.1",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",

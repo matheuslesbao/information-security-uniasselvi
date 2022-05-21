@@ -1,14 +1,13 @@
 import React from "react"
+import './App.scss'
+
+import Header from './components/Header/Header'
 
 
 function App() {
   return (
   <>
-    <ul>
-      <li>Inicio</li>
-      <li>Unidade 1</li>
-      <li>Unidade 2</li>
-    </ul>
+   <Header />
   </>)
 }
 

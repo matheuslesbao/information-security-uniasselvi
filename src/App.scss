@@ -1,3 +1,6 @@
+@use './scss/' as *;
+
+/* Importar fontes  */
 * {
   padding: 0;
   margin: 0;
@@ -19,11 +22,12 @@ body {
   font-size: 1.6rem;
   overflow: overlay;
 }
-/* === Classes Gerais === */
+
 ul {
   list-style-type: none;
 }
 a {
+  color: $main-color;
   text-decoration: none;
 }
 img {
