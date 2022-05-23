@@ -1,24 +1,21 @@
 import React from 'react'
 
 import './Header.scss'
-/* import { iconMenu } from '../../assets/Buttons/MenuIcon.svg' */
+import { VscListFlat } from 'react-icons/vsc'
 
 const Header = () => {
   return (
     <>
-      <header className='header'>
+      <header className="header">
         <nav id="navigation">
-          <div className="wrapper">
-            <div className="menu">
-              {/* <img src={iconMenu} alt="" /> */}
-              </div>
-                <ul>
-                  <li><a href="#">Inicio</a></li>
-                  <li><a href="#">Unidade 1</a></li>
-                  <li><a href="#">Unidade 2</a></li>
-                </ul>         
-          </div>
+          <VscListFlat className="icon-nav" />
+          <ul className="top-wrapper">
+            <li>
+              <a href="#">Inicio</a>
+            </li>
+          </ul>
         </nav>
+        <h1>Segurança em Tecnologia da Informação</h1>
       </header>
     </>
   )
